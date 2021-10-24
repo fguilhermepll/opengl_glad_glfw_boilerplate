@@ -26,7 +26,7 @@ Download binaries and dependencies on their website: [GLAD](http://glad.dav1d.de
 
 ```bash
 g++ -std=c++11 -c main.cpp -Iglad/include && \
-g++ main.o glad.o -o main.exec -lGL -lGLU -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor
+g++ main.o glad.c -o main.exec -lGL -lGLU -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor
 ```
 
 ## License
